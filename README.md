@@ -79,7 +79,7 @@ It demonstrates how to scrape real-time tech news data and convert it into a str
 * Converts data into a Pandas DataFrame
 * Exports the dataset to a CSV file
 
-## 📊 Output
+##  Output
 
 The script generates a file named **articles_list.csv** containing:
 
@@ -176,6 +176,7 @@ The generated dataset contains:
 * Price
 
 # 5. Love & Flair Scraper - Web Scraping Project
+![Love & Flair](images/image5.png)
 
 ##  Description
 

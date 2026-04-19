@@ -4,7 +4,7 @@
 **This repository is a collection of my web scraping projects built using Python and BeautifulSoup.**
 
 # 1. Quotes to Scrape - Web Scraping Project
-
+![Quotes Scraper](images/image1.png)
 
 ## Description
 
@@ -46,7 +46,7 @@ The script generates a file named **quotes.csv** containing:
 * Tags
 
 # 2. Hacker News Scraper - Web Scraping Project
-
+![Hacker News Scraper](images/image2.png)
 ##  Description
 
 This project is a Python-based web scraper that extracts articles, upvotes, authors, comments, and posting time from Hacker News.
@@ -92,7 +92,7 @@ The script generates a file named **articles_list.csv** containing:
 
 
 # 3. Fake Jobs Scraper - Web Scraping Project
-
+![Fake Jobs Scraper](images/image3.png)
 ##  Description
 
 This project is a Python-based web scraper that extracts job listings from Real Python Fake Jobs.
@@ -137,7 +137,7 @@ The generated dataset contains:
 * Footer Link
 
 # 4. Books to Scrape - Web Scraping Project
-
+![Books Scraper](images/image4.png)
 ##  Description
 
 This project is a Python-based web scraper that extracts book details such as name, price, and product links from Books to Scrape.

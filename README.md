@@ -89,3 +89,51 @@ The script generates a file named **articles_list.csv** containing:
 * Time Posted
 * Comments Count
 
+
+# 3. Fake Jobs Scraper - Web Scraping Project
+
+##  Description
+
+This project is a Python-based web scraper that extracts job listings from Real Python Fake Jobs.
+It collects structured job data for analysis and practice purposes.
+
+##  Features
+
+* Extracts job titles
+* Collects company names
+* Retrieves job locations
+* Captures posting time
+* Extracts footer details and links
+* Handles missing data using exception handling
+* Stores data in CSV format
+
+##  Tech Stack
+
+* Python
+* Requests
+* BeautifulSoup
+* Pandas
+
+##  How It Works
+
+* Sends an HTTP request to the website
+* Parses HTML using BeautifulSoup
+* Extracts job-related information using class selectors
+* Handles missing values using try-except blocks
+* Stores extracted data in a list of dictionaries
+* Converts it into a Pandas DataFrame
+* Saves the data into a CSV file
+
+##  Output
+
+The generated dataset contains:
+
+* Title
+* Company
+* Location
+* Time
+* Footer
+* Footer Link
+
+
+

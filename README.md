@@ -5,6 +5,7 @@
 
 # 1. Quotes to Scrape - Web Scraping Project
 
+"C:\Users\divya\OneDrive\Hình ảnh\Screenshots\Screenshot 2026-04-19 214237.png"
 ## Description
 
 This project is a Python-based web scraper that extracts quotes, authors, tags, and author profile links from Quotes to Scrape.

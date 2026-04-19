@@ -174,6 +174,61 @@ The generated dataset contains:
 * Link
 * Price
 
+# 5. Love & Flair Scraper - Web Scraping Project
+
+##  Description
+
+This project is a Python-based web scraper that extracts product data from Love & Flair.
+It collects detailed information about activewear products including pricing, availability, colors, sizes, and materials.
+
+##  Features
+
+* Scrapes product links from multiple pages (pagination)
+* Extracts product names and prices
+* Retrieves stock availability
+* Collects available colors and sizes
+* Extracts product material information
+* Handles missing data using conditional logic
+* Stores structured data in CSV format
+
+##  Tech Stack
+
+* Python
+* Requests
+* BeautifulSoup
+* Pandas
+
+##  How It Works
+
+* Sends HTTP requests to multiple product listing pages
+* Extracts product links using HTML class selectors
+* Removes duplicate links using set()
+* Visits each product page individually
+* Scrapes detailed product information
+* Cleans and structures data (colors, sizes, etc.)
+* Stores data in a list of dictionaries
+* Converts it into a Pandas DataFrame
+* Exports the dataset into a CSV file
+
+##  Output
+
+The generated dataset contains:
+
+* Name
+* Price
+* Stock
+* Color
+* Size
+* Material
+* Product Link
+
+## Author
+
+**Divya Upadhyay 😊😊**
+
+
+
+
 
 
 

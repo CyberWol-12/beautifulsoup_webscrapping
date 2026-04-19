@@ -135,5 +135,46 @@ The generated dataset contains:
 * Footer
 * Footer Link
 
+# 4. Books to Scrape - Web Scraping Project
+
+##  Description
+
+This project is a Python-based web scraper that extracts book details such as name, price, and product links from Books to Scrape.
+It is designed to practice scraping structured product data from an e-commerce-style website.
+
+##  Features
+
+* Extracts book names
+* Collects product links
+* Retrieves book prices
+* Handles multiple items from the page
+* Stores data in CSV format
+
+##  Tech Stack
+
+* Python
+* Requests
+* BeautifulSoup
+* Pandas
+
+##  How It Works
+
+* Sends an HTTP request to the website
+* Parses HTML using BeautifulSoup
+* Extracts book details using class selectors
+* Stores data in a list of dictionaries
+* Converts data into a Pandas DataFrame
+* Exports the data into a CSV file
+
+##  Output
+
+The generated dataset contains:
+
+* Name
+* Link
+* Price
+
+
+
 
 

@@ -273,7 +273,7 @@ songs_playlist.csv
 will be generated.
 
 # 7 Empire Top 100 Movies Scraper
-![Empire Top 100 Movies](images/image.png)
+![Empire Top 100 Movies](images/image7.png)
 ##  Description
 
 This project is a Python-based web scraper that extracts the list of top 100 movies from the archived Empire Online website using the Wayback Machine.

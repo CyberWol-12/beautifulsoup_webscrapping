@@ -225,7 +225,7 @@ The generated dataset contains:
 * Product Link
 
 # 6 Billboard Hot 100 Scraper - web scraping project
-![Love & Flair](images/image6.png)
+![Billboard Hot 100 Scraper](images/image6.png)
 
 ##  Description
 
@@ -263,19 +263,80 @@ It collects key details about trending songs, including the title, artist name, 
 * Converts data into a Pandas DataFrame
 * Exports the dataset into a CSV file
 
----
 
 ## Output
 
 After running the script, a file named:
 
-```bash
 songs_playlist.csv
-```
 
 will be generated.
 
+# 7 Empire Top 100 Movies Scraper
+![Empire Top 100 Movies](images/image.png)
+##  Description
 
+This project is a Python-based web scraper that extracts the list of top 100 movies from the archived Empire Online website using the Wayback Machine.
+
+It collects movie details such as title, release year, and review links, and stores them in a structured CSV format.
+
+## Features
+
+* Scrapes top 100 movies from archived webpage
+* Extracts movie titles
+* Retrieves movie release years
+* Collects review links (relative and full links)
+* Handles missing year data using conditional logic
+* Stores structured data into CSV format
+
+## Tech Stack
+
+* Python
+* Requests
+* BeautifulSoup
+* Pandas
+
+## How It Works
+
+1. Sends an HTTP request to the archived Empire webpage
+2. Parses the HTML content using BeautifulSoup
+3. Finds all movie containers using class selectors
+4. Extracts:
+
+   * Movie title (`h3.title`)
+   * Release year (`strong`)
+   * Review link (`a href`)
+5. Handles missing year values using conditional logic
+6. Converts relative links into full URLs
+7. Stores data into a list of dictionaries
+8. Converts it into a Pandas DataFrame
+9. Exports the dataset into a CSV file
+
+
+## Output
+
+The generated dataset (`top100_movies.csv`) contains:
+
+* Movie Name
+* Release Year
+* Review Link (relative)
+* Full Link (complete URL)
+
+---
+
+## Example Output
+
+| Movie         | Year | Review Link | Full Link                        |
+| ------------- | ---- | ----------- | -------------------------------- |
+| The Godfather | 1972 | /movies/... | https://www.empireonline.com/... |
+
+---
+
+## Notes
+
+* The project uses an archived version of the website to avoid dynamic content issues
+* Some movies may not have a year tag, which is handled using `if-else` logic
+* Great project for learning web scraping and data extraction
 
 
 

@@ -22,6 +22,11 @@ for item in songs_list:
     movie_tag = item.find("h3",class_ = "title").text.strip()
     # in which year the movie released
     year_tag = item.find("strong")
+    if year_tag:
+        year = year_tag.getText().strip()
+    else:
+        year = None
+    print(year)   
     #link tag here we use review link and full link both
     link_tag = item.find("a",href = True)
     relative_link = link_tag['href']
@@ -32,7 +37,7 @@ for item in songs_list:
     # now we create dictionary so that we can store all items in dict
     data_dict = {
         "Movie":movie_tag,
-        "Year":year_tag,
+        "Year":year,
         "Review_link":review_link,
         "full_link":complete_link
     }

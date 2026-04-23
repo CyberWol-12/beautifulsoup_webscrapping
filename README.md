@@ -224,7 +224,8 @@ The generated dataset contains:
 * Material
 * Product Link
 
-# 6 Billboard Hot 100 Scraper
+# 6 Billboard Hot 100 Scraper - web scraping project
+![Love & Flair](images/image5.png)
 
 ##  Description
 

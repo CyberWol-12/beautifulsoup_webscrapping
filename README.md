@@ -224,6 +224,61 @@ The generated dataset contains:
 * Material
 * Product Link
 
+# 6 Billboard Hot 100 Scraper
+
+##  Description
+
+This project is a Python-based web scraper that extracts song data from the Billboard Hot 100 chart.
+It collects key details about trending songs, including the title, artist name, and song link, and stores them in a structured format.
+
+
+
+## Features
+
+* Scrapes latest Billboard Hot 100 songs
+* Extracts song titles and artist names
+* Retrieves song links
+* Uses headers to prevent request blocking
+* Handles missing data using conditional checks
+* Stores structured data in CSV format
+
+
+## Tech Stack
+
+* Python
+* Requests
+* BeautifulSoup
+* Pandas
+
+## How It Works
+
+* Sends an HTTP request to the Billboard Hot 100 webpage
+* Parses HTML content using BeautifulSoup
+* Extracts song containers using class selectors
+* Iterates through each song block
+* Extracts title, artist, and link
+* Uses conditional logic to handle missing values
+* Stores data in a list of dictionaries
+* Converts data into a Pandas DataFrame
+* Exports the dataset into a CSV file
+
+---
+
+## Output
+
+After running the script, a file named:
+
+```bash
+songs_playlist.csv
+```
+
+will be generated.
+
+
+
+
+
+
 ## Author
 
 **Divya Upadhyay 😊😊**

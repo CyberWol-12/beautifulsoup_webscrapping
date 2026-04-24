@@ -338,7 +338,52 @@ The generated dataset (`top100_movies.csv`) contains:
 * Some movies may not have a year tag, which is handled using `if-else` logic
 * Great project for learning web scraping and data extraction
 
+# 8 Amazon Instant Pot Scraper - Web Scraping Project
+![Amazon Scraper](images/image.png)
 
+## Description
+
+This project is a Python-based web scraper that extracts product data from Amazon search results for "Instant Pot".
+It collects key details about products, including the title, rating, number of items bought, price, and product link, and stores them in a structured format.
+
+## Features
+
+* Scrapes multiple pages of Amazon search results
+* Extracts product titles and ratings
+* Retrieves number of items bought (if available)
+* Extracts product prices
+* Collects product links
+* Uses headers to reduce request blocking
+* Handles missing data using conditional checks
+* Stores structured data in CSV format
+
+## Tech Stack
+
+* Python
+* Requests
+* BeautifulSoup
+* Pandas
+
+## How It Works
+
+* Sends HTTP requests to Amazon search result pages
+* Parses HTML content using BeautifulSoup
+* Extracts product containers using `data-component-type="s-search-result"`
+* Iterates through each product block
+* Extracts title, rating, bought count, price, and link
+* Uses conditional logic to handle missing values
+* Stores data in a list of dictionaries
+* Converts data into a Pandas DataFrame
+* Exports the dataset into a CSV file
+
+
+## Output
+
+After running the script, a file named:
+
+instant_pot.csv
+
+will be generated.
 
 
 ## Author

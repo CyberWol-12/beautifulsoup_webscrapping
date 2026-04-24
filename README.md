@@ -339,7 +339,7 @@ The generated dataset (`top100_movies.csv`) contains:
 * Great project for learning web scraping and data extraction
 
 # 8 Amazon Instant Pot Scraper - Web Scraping Project
-![Amazon Scraper](images/image.png)
+![Amazon Scraper](images/image8.png)
 
 ## Description
 

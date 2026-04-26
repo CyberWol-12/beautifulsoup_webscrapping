@@ -9,7 +9,7 @@ baseurl = "https://www.beyoung.in"
 headers = {
         'User-Agent':"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
     }
-for x in range(1,51):
+for x in range(0,200,12):
     url = (f"https://www.beyoung.in/mens-new-arrival?limit=12&offset={x}")
     r = requests.get(url)
 

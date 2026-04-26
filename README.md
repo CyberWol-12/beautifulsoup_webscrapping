@@ -385,6 +385,56 @@ instant_pot.csv
 
 will be generated.
 
+# 9 Beyoung Product Scraper - Web Scraping Project
+
+![Beyoung Scraper](images/image9.png)
+
+## Description
+
+This project is a Python-based web scraper that extracts product data from the Beyoung website (Men's New Arrivals section).
+It collects key details such as product name, price, discount, and product link, and stores them in a structured format.
+
+
+## Features
+
+* Scrapes Beyoung product listings
+* Extracts product names
+* Retrieves product prices
+* Extracts discount information (if available)
+* Collects product links
+* Handles pagination dynamically
+* Uses headers to avoid request blocking
+* Handles missing data using conditional checks
+* Stores structured data in CSV format
+
+## Tech Stack
+
+* Python
+* Requests
+* BeautifulSoup
+* Pandas
+
+## How It Works
+
+* Sends HTTP requests to Beyoung product pages
+* Parses HTML content using BeautifulSoup
+* Extracts product containers from the webpage
+* Iterates through each product block
+* Extracts product name, price, discount, and link
+* Uses conditional checks to handle missing values
+* Handles pagination to scrape multiple pages
+* Stores extracted data in a list of dictionaries
+* Converts data into a Pandas DataFrame
+* Exports the dataset into a CSV file
+
+
+## Output
+
+After running the script, a file named:
+
+**beyoung_products.csv**
+
+will be generated containing all the scraped product data.
 
 ## Author
 

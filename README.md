@@ -469,7 +469,6 @@ It collects important recipe details such as recipe name, ratings, reviews, phot
 * BeautifulSoup
 * Pandas
 
----
 
 ## How It Works
 
@@ -485,7 +484,6 @@ It collects important recipe details such as recipe name, ratings, reviews, phot
 * Converts data into a Pandas DataFrame
 * Exports the dataset into a CSV file
 
----
 
 ## Output
 
@@ -494,8 +492,6 @@ After running the script, a file named:
 **allrecipes.csv**
 
 will be generated containing all the scraped recipe data.
-
-
 
 
 ## Author

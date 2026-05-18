@@ -436,6 +436,68 @@ After running the script, a file named:
 
 will be generated containing all the scraped product data.
 
+
+# 10 Allrecipes Recipe Scraper - Web Scraping Project
+
+![Allrecipes Scraper](images/image9.png)
+
+## Description
+
+This project is a Python-based web scraper that extracts recipe data from the Allrecipes website (Cinco de Mayo Recipes section).  
+It collects important recipe details such as recipe name, ratings, reviews, photos count, and recipe links, then stores them in a structured CSV format.
+
+
+## Features
+
+* Scrapes recipe listings from Allrecipes
+* Extracts recipe names
+* Retrieves recipe ratings
+* Extracts reviews count
+* Extracts photos count
+* Collects recipe links
+* Handles pagination dynamically
+* Removes duplicate links
+* Uses headers to avoid request blocking
+* Handles missing data using conditional checks
+* Stores structured data in CSV format
+
+
+## Tech Stack
+
+* Python
+* Requests
+* BeautifulSoup
+* Pandas
+
+---
+
+## How It Works
+
+* Sends HTTP requests to Allrecipes recipe pages
+* Parses HTML content using BeautifulSoup
+* Extracts recipe containers from the webpage
+* Iterates through each recipe block
+* Extracts recipe name, rating, reviews, photos count, and recipe link
+* Uses conditional checks to handle missing values
+* Handles pagination to scrape multiple pages
+* Removes duplicate recipe links using `set()`
+* Stores extracted data in a list of dictionaries
+* Converts data into a Pandas DataFrame
+* Exports the dataset into a CSV file
+
+---
+
+## Output
+
+After running the script, a file named:
+
+**allrecipes.csv**
+
+will be generated containing all the scraped recipe data.
+
+
+
+
 ## Author
 
 **Divya Upadhyay 😊😊**

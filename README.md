@@ -432,7 +432,7 @@ It collects key details such as product name, price, discount, and product link,
 
 After running the script, a file named:
 
-**beyoung_products.csv**
+**beyoung.csv**
 
 will be generated containing all the scraped product data.
 

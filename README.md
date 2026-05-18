@@ -439,7 +439,7 @@ will be generated containing all the scraped product data.
 
 # 10 Allrecipes Recipe Scraper - Web Scraping Project
 
-![Allrecipes Scraper](images/image9.png)
+![Allrecipes Scraper](images/image10.png)
 
 ## Description
 
